@@ -14,7 +14,7 @@ The dataset used for this project comes from Lending Club credit loan data betwe
 Data link: https://www.kaggle.com/datasets/devanshi23/loan-data-2007-2014
 
 
-## Data Overview
+## Data Preprocessing
 The initial dataset was loaded and inspected for its structure and contents. Several preprocessing steps were undertaken to prepare the data for modeling:
 
 1. **Target Column Assignment**: Loans were classified as risky (bad) if they were in one of the following statuses: "Charged Off", "Late (31-120 days)", "Late (16-30 days)", "Default", "Does not meet the credit policy. Status: Charged Off". These were assigned a value of 1, while all other statuses were assigned a value of 0.
